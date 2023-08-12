@@ -2,7 +2,7 @@
   "name": "content-listing-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thevargheseshibu.github.io/content-listing-app",
+  "homepage": "thevargheseshibu.github.io/Content-Listing/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "axios": "^1.4.0",
