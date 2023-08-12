@@ -2,6 +2,7 @@
   "name": "content-listing-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://thevargheseshibu.github.io/content-listing-app",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "axios": "^1.4.0",
@@ -17,10 +18,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build:dev": "dotenv -e .env.development react-scripts build",
-    "build:production": "dotenv -e .env.production react-scripts build",
+    "build": "react-scripts build",
+    "build:dev": "set \"REACT_APP_API_URL=https://test.create.diagnal.com\" && react-scripts build",
+    "build:production": "set \"REACT_APP_API_URL=https://test.create.diagnal.com\" && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "gh-pages": "^6.0.0"
   }
 }
