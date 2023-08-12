@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/thevargheseshibu.github.io/Content-Listing/static/css/main.cb9369db.css",
+    "main.js": "/thevargheseshibu.github.io/Content-Listing/static/js/main.2272a2a3.js",
+    "index.html": "/thevargheseshibu.github.io/Content-Listing/index.html",
+    "main.cb9369db.css.map": "/thevargheseshibu.github.io/Content-Listing/static/css/main.cb9369db.css.map",
+    "main.2272a2a3.js.map": "/thevargheseshibu.github.io/Content-Listing/static/js/main.2272a2a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb9369db.css",
+    "static/js/main.2272a2a3.js"
+  ]
+}
