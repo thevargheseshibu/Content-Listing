@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/thevargheseshibu.github.io/Content-Listing/static/css/main.cb9369db.css",
-    "main.js": "/thevargheseshibu.github.io/Content-Listing/static/js/main.2272a2a3.js",
-    "index.html": "/thevargheseshibu.github.io/Content-Listing/index.html",
-    "main.cb9369db.css.map": "/thevargheseshibu.github.io/Content-Listing/static/css/main.cb9369db.css.map",
-    "main.2272a2a3.js.map": "/thevargheseshibu.github.io/Content-Listing/static/js/main.2272a2a3.js.map"
+    "main.css": "/Content-Listing/static/css/main.cb9369db.css",
+    "main.js": "/Content-Listing/static/js/main.d3a92986.js",
+    "index.html": "/Content-Listing/index.html",
+    "main.cb9369db.css.map": "/Content-Listing/static/css/main.cb9369db.css.map",
+    "main.d3a92986.js.map": "/Content-Listing/static/js/main.d3a92986.js.map"
   },
   "entrypoints": [
     "static/css/main.cb9369db.css",
-    "static/js/main.2272a2a3.js"
+    "static/js/main.d3a92986.js"
   ]
 }
