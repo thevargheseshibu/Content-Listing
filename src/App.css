@@ -47,20 +47,19 @@ body {
 .content-title {
   margin-top: 0.5rem;
 }
-.search-text{
-  padding-right: 1.5rem;
-}
+
 /* Search Bar styles */
 .search-bar {
-  display: flex; /* Use flexbox to align items horizontally */
-  align-items: center; /* Center items vertically */
-  margin-bottom: 0; /* No margin between text and search bar */
-  position: sticky; /* Keep the search bar fixed */
-  top: 0; /* Position at the top */
-  width: 100%; /* Take full width */
-  background-color: rgba(0, 0, 0, 0.8); /* Add background color */
-  z-index: 100; /* Ensure it's above other content */
-  padding: 0.5rem 1rem; /* Add padding to all sides */
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  position: fixed; /* Change this to "fixed" */
+  top: 0;
+  left: 0; /* Add this line to keep it aligned to the left */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+  padding: 0.5rem 1rem;
 }
 
 .search-bar input {
@@ -68,7 +67,7 @@ body {
   padding: 0.5rem;
   border: none;
   border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.1); /* Adjust this as needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Darken the background color */
   color: #FFFFFF;
   /* Add placeholder text */
   placeholder: "Search romantic comedy";
@@ -87,6 +86,11 @@ body {
   background-color: #000; /* Change this to your footer color */
   padding: 1rem;
   text-align: center;
+}
+.search-text {
+
+  padding-right: 1rem; /* Add padding to all sides */
+  
 }
 
 /* Media Query for Mobile Portrait View */
